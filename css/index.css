@@ -1,0 +1,185 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Londrina+Solid:wght@100&family=Potta+One&display=swap');
+
+.row { max-width:1200px; margin:0 auto; padding:0 10px }
+
+/* font-family: 'Do Hyeon', sans-serif;
+font-family: 'Londrina Solid', cursive;
+font-family: 'Potta One', cursive; */
+
+
+#rwap { position: relative;}
+
+
+#header { background: rgb(37, 22, 4); 
+    position:fixed; width:100%; z-index:99999;
+    transition:all 0.5s;}
+
+#header > div { position:relative; height: 50px; color: rgb(182, 164, 141); }
+#header h1 { font-weight: 900; line-height: 50px; font-size: 20px; font-family: 'Potta One', cursive;}
+#header .nav { position:absolute; 
+    top:50%; right:0; 
+    transform:translateY(-50%); }
+#header .nav li { display:inline-block; border-left: 1px solid rgb(109, 99, 85);
+    line-height: 30px; font-family: 'Do Hyeon', sans-serif;}
+#header .nav li > a { 
+    font-size:14px;   
+    padding:0px 28px 0 30px; }
+
+
+h2 {  text-shadow: 2px 2px 3px rgb(124, 101, 75); font-family: 'Londrina Solid', cursive;}
+
+
+
+/* article1 */
+ 
+.article1 { background: rgb(226, 213, 195); padding-top: 60px;}
+
+
+.article1 h2 { font-size: 40px; font-weight: bold; margin-top: 90px; text-align: center;
+    color: rgb(53, 37, 3);}
+.article1 .slide-group { width: 700px; border-radius: 10px; margin: 70px auto; 
+    position: relative; border: 3px solid  rgb(70, 55, 45);}
+.article1 .slide-group .slide1 { height: 480px; 
+    background: url(../img/KakaoTalk_1.jpg) no-repeat center;
+    background-size: cover; border-radius: 7px; }
+
+.article1 .slide-group .slide2 { height:480px; 
+    background: url(../img/KakaoTalk_2.jpg) no-repeat center;
+    background-size: cover; border-radius: 7px; }
+    
+
+
+.slide-group .slick-arrow { position: absolute; top: 50%; transform: translateY(-50%);
+    font-size: 50px; border: none; background: none; color: #fff;}
+.slide-group .prev { left: -60px; z-index: 99;}
+.slide-group .next { right: -60px;}
+.slide-group .slick-dots { position: absolute; bottom: -40px; left: 50%; 
+    transform: translate(-50%);}
+.slide-group .slick-dots li { display: inline-block; margin: 0 5px;}
+.slide-group .slick-dots li button { width: 15px; height: 15px; border-radius: 50%;
+    background: #fff; border: none; color: transparent; vertical-align: middle;}
+.slide-group .slick-dots li.slick-active button { border: 2px solid #fff; background: none;}
+    
+
+
+
+
+
+
+
+    /* article2 */
+.article2 {  padding-top: 60px; background: rgb(245, 236, 223); }
+
+.article2 h2 { font-size: 40px; text-align: center; font-weight: bold; margin:70px 0 20px;
+    color: rgb(54, 30, 0);}
+
+.article2 > div { position: relative; width: 1100px;}
+.article2 > div ul { position: absolute; left: 100px; color: rgb(70, 55, 45); 
+    padding-left: 50px; border-left: 4px dotted rgb(70, 55, 45); top: 400px;}
+.article2 .photo { position: absolute; right: 50px; border-radius: 5px; top: 150px;
+    width: 420px; border: 10px solid rgb(99, 74, 58); }
+.article2 ul li {  font-size: 20px; padding: 10px 0; font-weight: bold;
+    font-family: 'Do Hyeon', sans-serif;}
+
+
+
+
+
+.article1, .article2, .article3, .article4 { height: 100vh;}
+
+/* article3 */
+
+.article3 { background: rgb(226, 213, 195); padding-top: 60px;
+    font-family: 'Do Hyeon', sans-serif;}
+
+
+
+.article3 > h2 { padding-top: 40px; text-align: center; font-size: 40px; font-weight: bold;
+    color: rgb(61, 44, 37); }
+
+
+.skillContainer { text-align: center; height: 100%; font-size: 20px; font-weight: bold;}
+.skillContainer > div { display: inline-block; 
+    width: 15%; height: 80%; margin: 9% 0 16%;}
+
+.skillContainer .score { height: calc(100% - 116px); position: relative; padding-bottom:116px;
+    margin: 0 20px;}
+.skillContainer .myscore { position: absolute; bottom: 20px; width: 50%;
+    left: 50%; transform: translate(-50%); padding-top: 10px; border-radius: 10px;
+    border: 3px solid rgb(199, 187, 171); background:rgb(177, 165, 156);
+    color: rgb(59, 56, 52);}
+.skillContainer .html .myscore { height: 0%; ;
+    animation: htmlani 1s both 0s;}
+.skillContainer .css .myscore  { height: 0%; background:  rgb(199, 187, 171); 
+    animation: cssani 1s both 0.5s; border: 3px solid rgb(177, 165, 156);}
+.skillContainer .script .myscore { height: 0%; 
+    animation: scriptani 1s both 1s;}
+.skillContainer .jquery .myscore { height: 0%; background:  rgb(199, 187, 171); 
+    animation: jqueryani 1s both 1.5s; border: 3px solid rgb(177, 165, 156);}
+.skillContainer .react .myscore { height: 0%; 
+    animation: reactani 1s both 2s;}
+
+
+    @keyframes htmlani {
+        0% { height: 0%; opacity: 0;}
+        100% { height: 90%; opacity: 1;}
+    }
+    @keyframes cssani {
+        0% { height: 0%; opacity: 0;}
+        100% { height: 80%; opacity: 1;}
+    }
+    @keyframes scriptani {
+        0% { height: 0%; opacity: 0;}
+        100% { height: 70%; opacity: 1;}
+    }
+    @keyframes jqueryani {
+        0% { height: 0%; opacity: 0;}
+        100% { height: 60%; opacity: 1;}
+    }
+    @keyframes reactani {
+        0% { height: 0%; opacity: 0;}
+        100% { height: 50%; opacity: 1;}
+    }
+
+.skillContainer > div > p { color: rgb(70, 48, 38); font-size: 22px;}
+
+
+
+
+
+
+
+/* article4 */
+
+.article4 { padding-top: 60px; background: rgb(245, 236, 223); }
+.article4 .form1 { border: 0px solid #000; margin: 100px 0 0 40px; width: 50%;
+    font-family: 'Do Hyeon', sans-serif;}
+
+.article4 .form1 label { width: 150px; display: inline-block; margin-left: 10px;
+    font-weight: bold; color: rgb(87, 56, 20); font-size: 20px;}
+.article4 .form1 input[type=file] {border: none;}
+.article4 .form1 p { padding: 15px 0; }
+.article4 .form1 p:nth-of-type(4) label { vertical-align: top;}
+.article4 .form1 input { width: 120px; height: 28px;  border-radius: 10px;
+    font-size: 16px; text-align: center; }
+.article4 .form1 textarea { width: calc(90% - 150px); height: 150px; vertical-align: top;
+    display: inline-block; padding: 15px 10px; border-radius: 10px;}
+
+.article4 .form1 input[type=file] { width: 50%; border-radius: 0px; height: 32px;}
+
+.article4 .form1 p:nth-of-type(6) {text-align: center; margin-top: 30px;}
+.article4 .form1 p:nth-of-type(6) button { height: 40px; width: 70px;
+    background: rgb(87, 56, 20); color: cornsilk; border-radius: 10px;}
+
+
+
+.article4 .row { position: relative;}
+.article4 .row > div { position: absolute; top: 40%; transform: translateY(-50%);
+     right: 0; width: 40%; ;}
+.article4 .row > div h2 { text-align: center; background: rgb(73, 57, 36); 
+    color: cornsilk; padding: 10px 0; border-radius: 10px;
+    font-size: 40px; font-weight: bold; text-shadow: none;}
+.article4 .row > div > div { height: 300px; border-radius: 20px;
+    background: url(../img/cozy.jpg) no-repeat center; background-size: cover;
+    margin-top: 30px; border: 3px solid rgb(58, 46, 28);}

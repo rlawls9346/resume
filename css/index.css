@@ -33,18 +33,18 @@ h2 {  text-shadow: 2px 2px 3px rgb(124, 101, 75); font-family: 'Londrina Solid',
 
 /* article1 */
  
-.article1 { background: rgb(226, 213, 195); padding-top: 60px;}
+#article1 { background: rgb(226, 213, 195); padding-top: 60px;}
 
 
-.article1 h2 { font-size: 40px; font-weight: bold; margin-top: 90px; text-align: center;
+#article1 h2 { font-size: 40px; font-weight: bold; margin-top: 90px; text-align: center;
     color: rgb(53, 37, 3);}
-.article1 .slide-group { width: 700px; border-radius: 10px; margin: 70px auto; 
+#article1 .slide-group { width: 700px; border-radius: 10px; margin: 70px auto; 
     position: relative; border: 3px solid  rgb(70, 55, 45);}
-.article1 .slide-group .slide1 { height: 480px; 
+#article1 .slide-group .slide1 { height: 480px; 
     background: url(../img/KakaoTalk_1.jpg) no-repeat center;
     background-size: cover; border-radius: 7px; }
 
-.article1 .slide-group .slide2 { height:480px; 
+#article1 .slide-group .slide2 { height:480px; 
     background: url(../img/KakaoTalk_2.jpg) no-repeat center;
     background-size: cover; border-radius: 7px; }
     
@@ -69,33 +69,33 @@ h2 {  text-shadow: 2px 2px 3px rgb(124, 101, 75); font-family: 'Londrina Solid',
 
 
     /* article2 */
-.article2 {  padding-top: 60px; background: rgb(245, 236, 223); }
+#article2 {  padding-top: 60px; background: rgb(245, 236, 223); }
 
-.article2 h2 { font-size: 40px; text-align: center; font-weight: bold; margin:70px 0 20px;
+#article2 h2 { font-size: 40px; text-align: center; font-weight: bold; margin:70px 0 20px;
     color: rgb(54, 30, 0);}
 
-.article2 > div { position: relative; width: 1100px;}
-.article2 > div ul { position: absolute; left: 100px; color: rgb(70, 55, 45); 
+#article2 > div { position: relative; width: 1100px;}
+#article2 > div ul { position: absolute; left: 100px; color: rgb(70, 55, 45); 
     padding-left: 50px; border-left: 4px dotted rgb(70, 55, 45); top: 400px;}
-.article2 .photo { position: absolute; right: 50px; border-radius: 5px; top: 150px;
+#article2 .photo { position: absolute; right: 50px; border-radius: 5px; top: 150px;
     width: 420px; border: 10px solid rgb(99, 74, 58); }
-.article2 ul li {  font-size: 20px; padding: 10px 0; font-weight: bold;
+#article2 ul li {  font-size: 20px; padding: 10px 0; font-weight: bold;
     font-family: 'Do Hyeon', sans-serif;}
 
 
 
 
 
-.article1, .article2, .article3, .article4 { height: 100vh;}
+#article1, #article2, #article3, #article4 { height: 100vh;}
 
 /* article3 */
 
-.article3 { background: rgb(226, 213, 195); padding-top: 60px;
+#article3 { background: rgb(226, 213, 195); padding-top: 60px;
     font-family: 'Do Hyeon', sans-serif;}
 
 
 
-.article3 > h2 { padding-top: 40px; text-align: center; font-size: 40px; font-weight: bold;
+#article3 > h2 { padding-top: 40px; text-align: center; font-size: 40px; font-weight: bold;
     color: rgb(61, 44, 37); }
 
 
@@ -152,34 +152,34 @@ h2 {  text-shadow: 2px 2px 3px rgb(124, 101, 75); font-family: 'Londrina Solid',
 
 /* article4 */
 
-.article4 { padding-top: 60px; background: rgb(245, 236, 223); }
-.article4 .form1 { border: 0px solid #000; margin: 100px 0 0 40px; width: 50%;
+#article4 { padding-top: 60px; background: rgb(245, 236, 223); }
+#article4 .form1 { border: 0px solid #000; margin: 100px 0 0 40px; width: 50%;
     font-family: 'Do Hyeon', sans-serif;}
 
-.article4 .form1 label { width: 150px; display: inline-block; margin-left: 10px;
+#article4 .form1 label { width: 150px; display: inline-block; margin-left: 10px;
     font-weight: bold; color: rgb(87, 56, 20); font-size: 20px;}
-.article4 .form1 input[type=file] {border: none;}
-.article4 .form1 p { padding: 15px 0; }
-.article4 .form1 p:nth-of-type(4) label { vertical-align: top;}
-.article4 .form1 input { width: 120px; height: 28px;  border-radius: 10px;
+#article4 .form1 input[type=file] {border: none;}
+#article4 .form1 p { padding: 15px 0; }
+#article4 .form1 p:nth-of-type(4) label { vertical-align: top;}
+#article4 .form1 input { width: 120px; height: 28px;  border-radius: 10px;
     font-size: 16px; text-align: center; }
-.article4 .form1 textarea { width: calc(90% - 150px); height: 150px; vertical-align: top;
+#article4 .form1 textarea { width: calc(90% - 150px); height: 150px; vertical-align: top;
     display: inline-block; padding: 15px 10px; border-radius: 10px;}
 
-.article4 .form1 input[type=file] { width: 50%; border-radius: 0px; height: 32px;}
+#article4 .form1 input[type=file] { width: 50%; border-radius: 0px; height: 32px;}
 
-.article4 .form1 p:nth-of-type(6) {text-align: center; margin-top: 30px;}
-.article4 .form1 p:nth-of-type(6) button { height: 40px; width: 70px;
+#article4 .form1 p:nth-of-type(6) {text-align: center; margin-top: 30px;}
+#article4 .form1 p:nth-of-type(6) button { height: 40px; width: 70px;
     background: rgb(87, 56, 20); color: cornsilk; border-radius: 10px;}
+#article4 .form1 p:nth-of-type(6) button:hover { background:  rgb(165, 116, 60);}
 
 
-
-.article4 .row { position: relative;}
-.article4 .row > div { position: absolute; top: 40%; transform: translateY(-50%);
+#article4 .row { position: relative;}
+#article4 .row > div { position: absolute; top: 40%; transform: translateY(-50%);
      right: 0; width: 40%; ;}
-.article4 .row > div h2 { text-align: center; background: rgb(73, 57, 36); 
+#article4 .row > div h2 { text-align: center; background: rgb(73, 57, 36); 
     color: cornsilk; padding: 10px 0; border-radius: 10px;
     font-size: 40px; font-weight: bold; text-shadow: none;}
-.article4 .row > div > div { height: 300px; border-radius: 20px;
+#article4 .row > div > div { height: 300px; border-radius: 20px;
     background: url(../img/cozy.jpg) no-repeat center; background-size: cover;
     margin-top: 30px; border: 3px solid rgb(58, 46, 28);}

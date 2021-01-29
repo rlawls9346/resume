@@ -40,14 +40,25 @@ h2 {  text-shadow: 2px 2px 3px rgb(124, 101, 75); font-family: 'Londrina Solid',
     color: rgb(53, 37, 3);}
 #article1 .slide-group { width: 700px; border-radius: 10px; margin: 70px auto; 
     position: relative; border: 3px solid  rgb(70, 55, 45);}
-#article1 .slide-group .slide1 { height: 480px; 
+#article1 .slide-group .slide1 { height: 480px; position: relative;
     background: url(../img/KakaoTalk_1.jpg) no-repeat center;
     background-size: cover; border-radius: 7px; }
 
-#article1 .slide-group .slide2 { height:480px; 
+#article1 .slide-group .slide2 { height:480px; position: relative;
     background: url(../img/KakaoTalk_2.jpg) no-repeat center;
     background-size: cover; border-radius: 7px; }
     
+#article1 .slide-group .slide::before { content: ''; top: 0; left: 0; bottom: 0; right: 0;
+    background: rgba(0,0,0,0.3); position: absolute;}
+
+#article1 .slide-group .slide { position: relative;}
+#article1 .slide-group .slide .slidetext 
+    { position: absolute; bottom: 50px; left: 50%; font-size: 30px; font-weight: bold;
+    transform: translate(-50%); color: rgb(199, 187, 171);
+    font-family: 'Do Hyeon', sans-serif; text-shadow: 1px 1px 3px rgba(0,0,0,0.5);}
+.slide-group .slide.slick-clonde .slidetext { opacity: 0;} 
+.slide-group .slide.slick-active .slidetext p { animation: fadeIn 0.5s both 0.3s ;}
+
 
 
 .slide-group .slick-arrow { position: absolute; top: 50%; transform: translateY(-50%);

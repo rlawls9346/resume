@@ -26,6 +26,7 @@ font-family: 'Potta One', cursive; */
     font-size:14px;   
     padding:0px 28px 0 30px; }
 
+#header .nav li.on { color: white; font-weight: bold;}
 
 h2 {  text-shadow: 2px 2px 3px rgb(124, 101, 75); font-family: 'Londrina Solid', cursive;}
 
@@ -82,7 +83,7 @@ h2 {  text-shadow: 2px 2px 3px rgb(124, 101, 75); font-family: 'Londrina Solid',
     /* article2 */
 #article2 {  padding-top: 60px; background: rgb(245, 236, 223); }
 
-#article2 h2 { font-size: 40px; text-align: center; font-weight: bold; margin:70px 0 20px;
+#article2 h2 { font-size: 40px; text-align: center; font-weight: bold; margin:60px 0 20px;
     color: rgb(54, 30, 0);}
 
 #article2 > div { position: relative; width: 1100px;}
